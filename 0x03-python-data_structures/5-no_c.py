@@ -10,4 +10,4 @@ def no_c(my_string):
             new = new[:(i - j)] + my_string[(i + 1):]
             j += 1
 
-            return (new)
+    return (new)
