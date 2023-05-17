@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * reverse - reverses the second half of the list
+ * reverse - reverses the second half of a given list
  *
  * @h_r: head of the second half
- * Return: no return
+ * Return: None
  */
 void reverse(listint_t **h_r)
 {
@@ -112,3 +112,4 @@ int is_palindrome(listint_t **head)
 
 	return (isp);
 }
+
